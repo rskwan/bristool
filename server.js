@@ -3,7 +3,6 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
-var request = require('request');
 var exec = require('child_process').exec;
 var tmp = require('tmp');
 
