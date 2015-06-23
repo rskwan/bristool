@@ -1,0 +1,16 @@
+{
+    "name": "bristool",
+    "version": "0.0.1",
+    "description": "Batch reverse image search tool",
+    "main": "server.js",
+    "private": true,
+    "dependencies": {
+        "express": "4.x",
+        "socket.io": "1.3.x",
+        "tmp": "0.0.x"
+    },
+    "engines": {
+        "node": "0.12.x"
+    },
+    "license": "MIT"
+}
