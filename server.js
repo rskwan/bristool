@@ -11,7 +11,7 @@ tmp.setGracefulCleanup();
 app.set('port', (process.env.PORT || 9001));
 app.use(express.static('static'));
 
-var uploadurl = 'http://images.google.com/searchbyimage/upload';
+var uploadurl = 'http://www.google.com/searchbyimage/upload';
 io.on('connection', function (socket) {
     socket.on('image_upload', function (data) {
         var opts = { postfix: '.' + data['fext'] };
